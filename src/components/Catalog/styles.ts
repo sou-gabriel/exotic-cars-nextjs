@@ -31,6 +31,8 @@ export const RedirectButton = styled.button`
 export const Heading = styled.header`
   margin-bottom: 0.375rem;
 
+  text-align: left;
+
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
