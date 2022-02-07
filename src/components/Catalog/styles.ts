@@ -26,6 +26,7 @@ export const CarItem = styled.li`
 export const RedirectButton = styled.button`
   padding: 1.4rem 1rem;
   border: transparent;
+  background: transparent;
 `
 
 export const Heading = styled.header`
