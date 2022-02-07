@@ -16,10 +16,16 @@ export const CarsList = styled.ul`
 
 export const CarItem = styled.li`
   width: 18rem;
-  padding: 1.4rem 1rem;
   border-radius: 20px;
 
+  overflow: hidden;
+
   background: #f8f8fa 0% 0% no-repeat padding-box;
+`
+
+export const RedirectButton = styled.button`
+  padding: 1.4rem 1rem;
+  border: transparent;
 `
 
 export const Heading = styled.header`

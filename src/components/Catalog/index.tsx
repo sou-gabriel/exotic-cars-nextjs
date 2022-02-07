@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 import * as S from './styles'
 
@@ -25,38 +26,57 @@ interface ICatalogProps {
 }
 
 export const Catalog = ({ cars }: ICatalogProps) => {
+  const router = useRouter()
+
+  const storageCar = (car: ICar) => {
+    sessionStorage.setItem('activeCar', JSON.stringify(car))
+  }
+
+  const redirectUser = (id: number) => {
+    router.push(`/cars/${id}`)
+  }
+
   return (
     <S.CarsList>
-      {cars.map(({ id, brand, model, thumbnail, colors, price }) => (
-        <S.CarItem key={id}>
-          <S.Heading>
-            <div>
-              <S.Brand>{brand.name}</S.Brand>
-              <S.Model>{model}</S.Model>
-            </div>
-            <S.DetailsButton title="Acessar detalhes">
-              <S.Bullet />
-              <S.Bullet />
-              <S.Bullet />
-            </S.DetailsButton>
-          </S.Heading>
+      {cars.map(car => {
+        return (
+          <S.CarItem key={car.id}>
+            <S.RedirectButton
+              onClick={() => {
+                storageCar(car)
+                redirectUser(car.id)
+              }}
+            >
+              <S.Heading>
+                <div>
+                  <S.Brand>{car.brand.name}</S.Brand>
+                  <S.Model>{car.model}</S.Model>
+                </div>
+                <S.DetailsButton title="Acessar detalhes">
+                  <S.Bullet />
+                  <S.Bullet />
+                  <S.Bullet />
+                </S.DetailsButton>
+              </S.Heading>
 
-          <Image
-            src={thumbnail}
-            alt={brand.name}
-            width={244}
-            height={107}
-            layout="fixed"
-          />
-          <S.Price>
-            <strong>
-              <sup>$</sup>
-              {price.amount}
-            </strong>
-            <sub>/{price.period}</sub>
-          </S.Price>
-        </S.CarItem>
-      ))}
+              <Image
+                src={car.thumbnail}
+                alt={car.brand.name}
+                width={244}
+                height={107}
+                layout="fixed"
+              />
+              <S.Price>
+                <strong>
+                  <sup>$</sup>
+                  {car.price.amount}
+                </strong>
+                <sub>/{car.price.period}</sub>
+              </S.Price>
+            </S.RedirectButton>
+          </S.CarItem>
+        )
+      })}
     </S.CarsList>
   )
 }
