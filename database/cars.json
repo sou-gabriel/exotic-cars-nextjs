@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "brand": {
+      "name": "Ferrari",
+      "logo": "https://i.ibb.co/njx5sfv/ferrari-logo.png"
+    },
+    "model": "California",
+    "thumbnail": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/n7nYjbF/ferrari-red.png"
+      },
+      {
+        "color": "Yellow",
+        "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow.png"
+      },
+      {
+        "color": "Gray",
+        "image": "https://i.ibb.co/7WRMRPT/ferrari-gray.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "brand": {
+      "name": "Porshe",
+      "logo": "https://i.ibb.co/WGMqkQf/porsche-transparent-29277.png"
+    },
+    "model": "911 Turbo S",
+    "thumbnail": "https://i.ibb.co/6nDNhQ1/Mask-Group-6.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Black",
+        "image": "https://i.ibb.co/qWbD7VT/porsche-illustration-29303-1.png"
+      },
+      {
+        "color": "White",
+        "image": "https://i.ibb.co/yVjbqv7/photo-porsche-29300-1.png"
+      },
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/SQnLMZs/porsche-hd-29287-1-1.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "brand": {
+      "name": "Ferrari",
+      "logo": "https://i.ibb.co/njx5sfv/ferrari-logo.png"
+    },
+    "model": "California",
+    "thumbnail": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/n7nYjbF/ferrari-red.png"
+      },
+      {
+        "color": "Yellow",
+        "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow.png"
+      },
+      {
+        "color": "Gray",
+        "image": "https://i.ibb.co/7WRMRPT/ferrari-gray.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "brand": {
+      "name": "Porshe",
+      "logo": "https://i.ibb.co/WGMqkQf/porsche-transparent-29277.png"
+    },
+    "model": "911 Turbo S",
+    "thumbnail": "https://i.ibb.co/6nDNhQ1/Mask-Group-6.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Black",
+        "image": "https://i.ibb.co/qWbD7VT/porsche-illustration-29303-1.png"
+      },
+      {
+        "color": "White",
+        "image": "https://i.ibb.co/yVjbqv7/photo-porsche-29300-1.png"
+      },
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/SQnLMZs/porsche-hd-29287-1-1.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "brand": {
+      "name": "Ferrari",
+      "logo": "https://i.ibb.co/njx5sfv/ferrari-logo.png"
+    },
+    "model": "California",
+    "thumbnail": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/n7nYjbF/ferrari-red.png"
+      },
+      {
+        "color": "Yellow",
+        "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow.png"
+      },
+      {
+        "color": "Gray",
+        "image": "https://i.ibb.co/7WRMRPT/ferrari-gray.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "brand": {
+      "name": "Porshe",
+      "logo": "https://i.ibb.co/WGMqkQf/porsche-transparent-29277.png"
+    },
+    "model": "911 Turbo S",
+    "thumbnail": "https://i.ibb.co/6nDNhQ1/Mask-Group-6.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Black",
+        "image": "https://i.ibb.co/qWbD7VT/porsche-illustration-29303-1.png"
+      },
+      {
+        "color": "White",
+        "image": "https://i.ibb.co/yVjbqv7/photo-porsche-29300-1.png"
+      },
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/SQnLMZs/porsche-hd-29287-1-1.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "brand": {
+      "name": "Ferrari",
+      "logo": "https://i.ibb.co/njx5sfv/ferrari-logo.png"
+    },
+    "model": "California",
+    "thumbnail": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/n7nYjbF/ferrari-red.png"
+      },
+      {
+        "color": "Yellow",
+        "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow.png"
+      },
+      {
+        "color": "Gray",
+        "image": "https://i.ibb.co/7WRMRPT/ferrari-gray.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "brand": {
+      "name": "Porshe",
+      "logo": "https://i.ibb.co/WGMqkQf/porsche-transparent-29277.png"
+    },
+    "model": "911 Turbo S",
+    "thumbnail": "https://i.ibb.co/6nDNhQ1/Mask-Group-6.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Black",
+        "image": "https://i.ibb.co/qWbD7VT/porsche-illustration-29303-1.png"
+      },
+      {
+        "color": "White",
+        "image": "https://i.ibb.co/yVjbqv7/photo-porsche-29300-1.png"
+      },
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/SQnLMZs/porsche-hd-29287-1-1.png"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "brand": {
+      "name": "Ferrari",
+      "logo": "https://i.ibb.co/njx5sfv/ferrari-logo.png"
+    },
+    "model": "California",
+    "thumbnail": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/n7nYjbF/ferrari-red.png"
+      },
+      {
+        "color": "Yellow",
+        "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow.png"
+      },
+      {
+        "color": "Gray",
+        "image": "https://i.ibb.co/7WRMRPT/ferrari-gray.png"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "brand": {
+      "name": "Porshe",
+      "logo": "https://i.ibb.co/WGMqkQf/porsche-transparent-29277.png"
+    },
+    "model": "911 Turbo S",
+    "thumbnail": "https://i.ibb.co/6nDNhQ1/Mask-Group-6.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Black",
+        "image": "https://i.ibb.co/qWbD7VT/porsche-illustration-29303-1.png"
+      },
+      {
+        "color": "White",
+        "image": "https://i.ibb.co/yVjbqv7/photo-porsche-29300-1.png"
+      },
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/SQnLMZs/porsche-hd-29287-1-1.png"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "brand": {
+      "name": "Ferrari",
+      "logo": "https://i.ibb.co/njx5sfv/ferrari-logo.png"
+    },
+    "model": "California",
+    "thumbnail": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/n7nYjbF/ferrari-red.png"
+      },
+      {
+        "color": "Yellow",
+        "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow.png"
+      },
+      {
+        "color": "Gray",
+        "image": "https://i.ibb.co/7WRMRPT/ferrari-gray.png"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "brand": {
+      "name": "Porshe",
+      "logo": "https://i.ibb.co/WGMqkQf/porsche-transparent-29277.png"
+    },
+    "model": "911 Turbo S",
+    "thumbnail": "https://i.ibb.co/6nDNhQ1/Mask-Group-6.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Black",
+        "image": "https://i.ibb.co/qWbD7VT/porsche-illustration-29303-1.png"
+      },
+      {
+        "color": "White",
+        "image": "https://i.ibb.co/yVjbqv7/photo-porsche-29300-1.png"
+      },
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/SQnLMZs/porsche-hd-29287-1-1.png"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "brand": {
+      "name": "Ferrari",
+      "logo": "https://i.ibb.co/njx5sfv/ferrari-logo.png"
+    },
+    "model": "California",
+    "thumbnail": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/n7nYjbF/ferrari-red.png"
+      },
+      {
+        "color": "Yellow",
+        "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow.png"
+      },
+      {
+        "color": "Gray",
+        "image": "https://i.ibb.co/7WRMRPT/ferrari-gray.png"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "brand": {
+      "name": "Porshe",
+      "logo": "https://i.ibb.co/WGMqkQf/porsche-transparent-29277.png"
+    },
+    "model": "911 Turbo S",
+    "thumbnail": "https://i.ibb.co/6nDNhQ1/Mask-Group-6.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Black",
+        "image": "https://i.ibb.co/qWbD7VT/porsche-illustration-29303-1.png"
+      },
+      {
+        "color": "White",
+        "image": "https://i.ibb.co/yVjbqv7/photo-porsche-29300-1.png"
+      },
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/SQnLMZs/porsche-hd-29287-1-1.png"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "brand": {
+      "name": "Ferrari",
+      "logo": "https://i.ibb.co/njx5sfv/ferrari-logo.png"
+    },
+    "model": "California",
+    "thumbnail": "https://i.ibb.co/Vw5Rqmc/ferrari-sideways.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/n7nYjbF/ferrari-red.png"
+      },
+      {
+        "color": "Yellow",
+        "image": "https://i.ibb.co/3Tk6X1j/ferrari-yellow.png"
+      },
+      {
+        "color": "Gray",
+        "image": "https://i.ibb.co/7WRMRPT/ferrari-gray.png"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "brand": {
+      "name": "Porshe",
+      "logo": "https://i.ibb.co/WGMqkQf/porsche-transparent-29277.png"
+    },
+    "model": "911 Turbo S",
+    "thumbnail": "https://i.ibb.co/6nDNhQ1/Mask-Group-6.png",
+    "price": {
+      "amount": 725,
+      "period": "day"
+    },
+    "colors": [
+      {
+        "color": "Black",
+        "image": "https://i.ibb.co/qWbD7VT/porsche-illustration-29303-1.png"
+      },
+      {
+        "color": "White",
+        "image": "https://i.ibb.co/yVjbqv7/photo-porsche-29300-1.png"
+      },
+      {
+        "color": "Red",
+        "image": "https://i.ibb.co/SQnLMZs/porsche-hd-29287-1-1.png"
+      }
+    ]
+  }
+]
