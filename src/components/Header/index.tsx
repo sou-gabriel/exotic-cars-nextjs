@@ -16,7 +16,7 @@ export const Header = () => {
 
         <SearchForm />
 
-        <div>
+        <S.Links>
           <Link href="/signup" passHref>
             <S.SignUpLink>Sign up</S.SignUpLink>
           </Link>
@@ -24,7 +24,7 @@ export const Header = () => {
           <Link href="/signin" passHref>
             <S.SignInLink>Sign in</S.SignInLink>
           </Link>
-        </div>
+        </S.Links>
       </S.Container>
     </S.Header>
   )

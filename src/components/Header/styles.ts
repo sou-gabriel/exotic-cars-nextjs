@@ -11,9 +11,25 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 0 0.5rem;
 
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
   align-items: center;
-  justify-content: space-between;
+  grid-template-areas: 'logo form links';
+
+  @media (max-width: ${({ theme }) => theme.medias.tablet}px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'logo links'
+      'form form';
+    justify-content: space-between;
+    row-gap: 0.5rem;
+  }
+
+  @media (max-width: ${({ theme }) => theme.medias.mobileL}px) {
+    grid-template-rows: 1fr;
+    row-gap: 0;
+  }
 `
 
 export const Logo = styled.a`
@@ -21,6 +37,8 @@ export const Logo = styled.a`
   line-height: 2rem;
   color: ${({ theme }) => theme.colors.title};
   text-transform: uppercase;
+
+  grid-area: logo;
 
   > span:nth-child(1) {
     letter-spacing: 0.96px;
@@ -30,6 +48,14 @@ export const Logo = styled.a`
   > span:nth-child(2) {
     letter-spacing: 0.64px;
     font-size: 1rem;
+  }
+`
+
+export const Links = styled.div`
+  grid-area: links;
+
+  @media (max-width: ${({ theme }) => theme.medias.tablet}px) {
+    justify-self: end;
   }
 `
 

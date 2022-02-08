@@ -6,17 +6,34 @@ interface IStyledLinkProps {
 
 export const Container = styled.div`
   padding-top: 3.31rem;
+
+  @media (max-width: ${({ theme }) => theme.medias.mobileL}px) {
+    padding-top: 1rem;
+  }
 `
 
 export const Heading = styled.div`
   display: flex;
   gap: 2.43rem;
+
+  @media (max-width: ${({ theme }) => theme.medias.mobileL}px) {
+    align-items: center;
+  }
+
+  @media (max-width: ${({ theme }) => theme.medias.mobileM}px) {
+    margin-bottom: 0.5rem;
+  }
 `
 
 export const BrandModel = styled.h1`
   font-size: 3.12rem;
   line-height: 4.18rem;
   color: ${({ theme }) => theme.colors.title};
+
+  @media (max-width: ${({ theme }) => theme.medias.mobileL}px) {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
 `
 
 export const Price = styled.p`
@@ -24,6 +41,11 @@ export const Price = styled.p`
   font-size: 2.5rem;
   line-height: 3.31rem;
   color: ${({ theme }) => theme.colors.title};
+
+  @media (max-width: ${({ theme }) => theme.medias.mobileL}px) {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
 `
 
 export const StyledLink = styled.a<IStyledLinkProps>`
@@ -65,10 +87,17 @@ export const Column = styled.div`
 
 export const Preview = styled.div`
   width: 100%;
+  height: 18.12rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: ${({ theme }) => theme.medias.mobileL}px) {
+    height: 24rem;
+
+    flex-direction: column;
+  }
 `
 
 export const Tag = styled.span`

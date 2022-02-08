@@ -12,9 +12,17 @@
 .swiperSlide {
   margin-left: 0;
 
+  margin-right: 15px;
+
   width: 17.43rem;
   height: 11.18rem;
 
   position: relative;
   z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    width: 100%;
+  }
 }
