@@ -10,4 +10,10 @@ export const theme: DefaultTheme = {
     purple: '#7b89f4',
     purpleLight: '#F3F1FC',
   },
+  medias: {
+    laptop: 1024,
+    tablet: 768,
+    mobileL: 425,
+    mobileM: 375,
+  },
 }

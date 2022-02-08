@@ -11,5 +11,11 @@ declare module 'styled-components' {
       purple: string
       purpleLight: string
     }
+    medias: {
+      laptop: number
+      tablet: number
+      mobileL: number
+      mobileM: number
+    }
   }
 }
