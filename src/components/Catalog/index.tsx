@@ -64,8 +64,9 @@ export const Catalog = ({ cars }: ICatalogProps) => {
                 alt={car.brand.name}
                 width={244}
                 height={107}
-                layout="fixed"
+                objectFit="scale-down"
               />
+
               <S.Price>
                 <strong>
                   <sup>$</sup>
