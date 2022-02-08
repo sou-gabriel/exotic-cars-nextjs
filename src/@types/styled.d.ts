@@ -9,6 +9,7 @@ declare module 'styled-components' {
       background: string
       bulletBackground: string
       purple: string
+      purpleLight: string
     }
   }
 }

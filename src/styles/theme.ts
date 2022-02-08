@@ -8,5 +8,6 @@ export const theme: DefaultTheme = {
     background: '#d8d7d7',
     bulletBackground: '#c8c8ca',
     purple: '#7b89f4',
+    purpleLight: '#F3F1FC',
   },
 }
