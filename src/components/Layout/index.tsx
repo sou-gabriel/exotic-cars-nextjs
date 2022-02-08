@@ -4,7 +4,6 @@ import { ThemeProvider } from 'styled-components'
 import { Header } from '../Header'
 
 import { theme } from 'styles/theme'
-import { GlobalStyle } from 'styles/global'
 import * as S from './styles'
 
 interface ILayout {
@@ -18,7 +17,6 @@ export const Layout = ({ children }: ILayout) => {
       <main>
         <S.Content>{children}</S.Content>
       </main>
-      <GlobalStyle />
     </ThemeProvider>
   )
 }
