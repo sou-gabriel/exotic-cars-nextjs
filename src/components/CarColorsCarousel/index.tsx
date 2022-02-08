@@ -22,8 +22,6 @@ export const CarColorsCarousel = ({
   colors,
   onIndexChange,
 }: ICarColorsCarousel) => {
-  console.log(colors)
-
   const navigationPrevRef = useRef<HTMLButtonElement>(null)
   const navigationNextRef = useRef<HTMLButtonElement>(null)
 
