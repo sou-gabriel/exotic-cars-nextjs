@@ -1,5 +1,26 @@
 import styled from 'styled-components'
 
+export const FeedbackMessageContainer = styled.div`
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`
+
+export const FeedbackMessage = styled.strong`
+  font-size: 1.8rem;
+  color: ${({ theme }) => theme.colors.title};
+  text-align: center;
+
+  opacity: 0.19;
+`
+
 export const CarsList = styled.ul`
   padding-top: 1.5rem;
 

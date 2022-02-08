@@ -1,9 +1,11 @@
 import Head from 'next/head'
 
 import { Catalog } from 'components/Catalog'
+import { useEffect } from 'react'
 
 interface ICar {
   id: number
+  city: string
   brand: {
     name: string
     logo: string
@@ -20,30 +22,15 @@ interface ICar {
   }[]
 }
 
-interface IHomeProps {
-  cars: ICar[]
-}
-
-const Home = ({ cars }: IHomeProps) => {
+const Home = () => {
   return (
     <>
       <Head>
         <title>Exotic Cars</title>
       </Head>
-      <Catalog cars={cars} />
+      <Catalog />
     </>
   )
-}
-
-export const getServerSideProps = async () => {
-  const response = await fetch('http://localhost:3000/api/cars')
-  const cars = await response.json()
-
-  return {
-    props: {
-      cars,
-    },
-  }
 }
 
 export default Home

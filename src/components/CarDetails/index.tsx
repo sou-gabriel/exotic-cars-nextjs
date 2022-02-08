@@ -9,6 +9,7 @@ import * as S from './styles'
 
 interface ICar {
   id: number
+  city: string
   brand: {
     name: string
     logo: string
