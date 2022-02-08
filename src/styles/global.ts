@@ -39,6 +39,10 @@ export const GlobalStyle = createGlobalStyle`
     color: inherit;
   }
 
-  
-  
+  &[type='date']::-webkit-inner-spin-button,
+  &[type='date']::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    background: transparent;
+  }  
 `
