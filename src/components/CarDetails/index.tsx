@@ -4,27 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import { CarColorsCarousel } from 'components/CarColorsCarousel'
-
+import { ICar } from 'shared/interfaces/cars'
 import * as S from './styles'
-
-interface ICar {
-  id: number
-  city: string
-  brand: {
-    name: string
-    logo: string
-  }
-  model: string
-  thumbnail: string
-  price: {
-    amount: number
-    period: string
-  }
-  colors: {
-    color: string
-    image: string
-  }[]
-}
 
 export const CarDetails = () => {
   const [activeColorIndex, setActiveColorIndex] = useState(0)

@@ -2,24 +2,8 @@ import Head from 'next/head'
 
 import { Catalog } from 'components'
 
-interface ICar {
-  id: number
-  city: string
-  brand: {
-    name: string
-    logo: string
-  }
-  model: string
-  thumbnail: string
-  price: {
-    amount: number
-    period: string
-  }
-  colors: {
-    color: string
-    image: string
-  }[]
-}
+import { api } from 'shared/services/api'
+import { ICar } from 'shared/interfaces/cars'
 
 interface IHomeProps {
   cars: ICar[]

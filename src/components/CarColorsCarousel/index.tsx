@@ -7,14 +7,13 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/bundle'
-import styles from 'styles/carousel.module.css'
+
+import { IColor } from 'shared/interfaces/cars'
 import * as S from './styles'
+import styles from 'styles/carousel.module.css'
 
 interface ICarColorsCarousel {
-  colors: {
-    color: string
-    image: string
-  }[]
+  colors: IColor[]
   onIndexChange: (newIndex: number) => void
 }
 

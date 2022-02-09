@@ -1,26 +1,8 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
+import { ICar } from 'shared/interfaces/cars'
 import * as S from './styles'
-
-interface ICar {
-  id: number
-  city: string
-  brand: {
-    name: string
-    logo: string
-  }
-  model: string
-  thumbnail: string
-  price: {
-    amount: number
-    period: string
-  }
-  colors: {
-    color: string
-    image: string
-  }[]
-}
 
 interface ICatalogProps {
   cars: ICar[]
