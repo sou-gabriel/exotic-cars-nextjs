@@ -76,7 +76,7 @@ export const Model = styled.span`
   text-transform: uppercase;
 `
 
-export const DetailsButton = styled.button`
+export const DetailsButton = styled.span`
   display: flex;
   align-items: center;
 
