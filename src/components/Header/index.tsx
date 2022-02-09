@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { SearchForm } from 'components/SearchForm'
+import { SearchForm } from '../SearchForm'
 
 import * as S from './styles'
 

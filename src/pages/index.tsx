@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
-import { Catalog } from 'components/Catalog'
-import { useEffect } from 'react'
+import { Catalog } from 'components'
 
 interface ICar {
   id: number

@@ -1,0 +1,6 @@
+export { CarColorsCarousel } from './CarColorsCarousel'
+export { CarDetails } from './CarDetails'
+export { Catalog } from './Catalog'
+export { Header } from './Header'
+export { Layout } from './Layout'
+export { SearchForm } from './SearchForm'
