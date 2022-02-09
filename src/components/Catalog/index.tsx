@@ -1,8 +1,5 @@
-import { useContext } from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-
-import { CarsContext } from 'CarsContext'
 
 import * as S from './styles'
 
@@ -25,9 +22,11 @@ interface ICar {
   }[]
 }
 
-export const Catalog = () => {
-  const { featuredCars } = useContext(CarsContext)
+interface ICatalogProps {
+  cars: ICar[]
+}
 
+export const Catalog = ({ cars }: ICatalogProps) => {
   const router = useRouter()
 
   const storageCar = (car: ICar) => {
@@ -38,17 +37,9 @@ export const Catalog = () => {
     router.push(`/cars/${id}`)
   }
 
-  if (!featuredCars.length) {
-    return (
-      <S.FeedbackMessageContainer>
-        <S.FeedbackMessage>No cars available</S.FeedbackMessage>
-      </S.FeedbackMessageContainer>
-    )
-  }
-
   return (
     <S.CarsList>
-      {featuredCars.map(car => {
+      {cars.map(car => {
         return (
           <S.CarItem key={car.id}>
             <S.RedirectButton
