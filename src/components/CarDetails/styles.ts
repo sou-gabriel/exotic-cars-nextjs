@@ -89,6 +89,8 @@ export const Preview = styled.div`
   width: 100%;
   height: 18.12rem;
 
+  margin-bottom: 1.5rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
