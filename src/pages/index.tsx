@@ -20,13 +20,21 @@ const Home = ({ cars }: IHomeProps) => {
   )
 }
 
+const fetchCars = async () => {
+  try {
+    const response = await api.get('cars')
+    return response.data
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 export const getStaticProps = async () => {
-  const response = await fetch('http://localhost:3000/api/cars')
-  const data = await response.json()
+  const cars = await fetchCars()
 
   return {
     props: {
-      cars: data,
+      cars,
     },
   }
 }
