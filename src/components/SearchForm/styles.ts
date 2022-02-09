@@ -49,6 +49,7 @@ export const Input = styled.input`
 
   border: 0;
 
+  font-family: inherit;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 1rem;
