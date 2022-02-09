@@ -1,5 +1,3 @@
-import { FormEvent, useContext } from 'react'
-
 import LocationIcon from 'assets/icons/location.svg'
 import CalendarIcon from 'assets/icons/calendar.svg'
 import SearchIcon from 'assets/icons/search.svg'

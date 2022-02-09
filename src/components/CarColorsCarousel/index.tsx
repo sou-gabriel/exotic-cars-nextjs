@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import Image from 'next/image'
-import { BsArrowLeft, BsArrowRight, BsFileSlides } from 'react-icons/bs'
+import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 import { Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
