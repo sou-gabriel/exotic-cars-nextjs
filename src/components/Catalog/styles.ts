@@ -65,7 +65,7 @@ export const Brand = styled.strong`
 
   font-size: 1.06rem;
   line-height: 1.37rem;
-  color: ${({ theme }) => theme.colors.title}
+  color: ${({ theme }) => theme.colors.title};
   text-align: left;
 `
 
